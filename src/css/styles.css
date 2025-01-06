@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gallery {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 24px;
+}
+
+.gallery-item {
+  width: calc(33% - 10px);
+}
+
+.gallery-image {
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+.feedback-form label {
+  margin-bottom: 10px;
+}
+textarea {
+  resize: none;
+}
+.nav{
+  display: flex;
+  border: 3px solid black;
+  flex-direction: column;
+  padding: 20px 100px;
+  margin: 20px;
+}
+.nav li{
+  padding: 20px;
+}
